@@ -4,10 +4,13 @@ public class Attributes {
 
   public String vehicle_type;
 
+  public String id;
+
   @Override
   public String toString() {
     return "Attributes{" +
-        "vehicule_type='" + vehicle_type + '\'' +
+        "vehicle_type='" + vehicle_type + '\'' +
+        ", id='" + id + '\'' +
         '}';
   }
 }

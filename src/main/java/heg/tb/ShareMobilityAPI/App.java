@@ -60,17 +60,17 @@ public class App
         // Requettes avec les paramètres
         //ShareMobility
         //Trotinnettes
-        Call<List<ApiResponse>> callSyncTrot = service.getData("ch.bfe.sharedmobility.vehicle_type=E-Scooter","7.2467909,47.1367785", "200","0", "esrijson");
+        Call<List<ApiResponse>> callSyncTrot = service.getData("ch.bfe.sharedmobility.vehicle_type=E-Scooter","6.6327025,46.5218269", "200","0", "esrijson");
         //voitures
-        Call<List<ApiResponse>> callSyncVoiture = service.getData("ch.bfe.sharedmobility.vehicle_type=Car","7.2467909,47.1367785", "200","0", "esrijson");
+        Call<List<ApiResponse>> callSyncVoiture = service.getData("ch.bfe.sharedmobility.vehicle_type=Car","6.6327025,46.5218269", "1200","0", "esrijson");
         //velo
-        Call<List<ApiResponse>> callSyncBike = service.getData("ch.bfe.sharedmobility.vehicle_type=Bike","7.2467909,47.1367785", "200","0", "esrijson");
+        Call<List<ApiResponse>> callSyncBike = service.getData("ch.bfe.sharedmobility.vehicle_type=Bike","6.6327025,46.5218269", "200","0", "esrijson");
         //E-CargoBike
-        Call<List<ApiResponse>> callSyncCargoBike = service.getData("ch.bfe.sharedmobility.vehicle_type=E-CargoBike","7.2467909,47.1367785", "200","0", "esrijson");
+        Call<List<ApiResponse>> callSyncCargoBike = service.getData("ch.bfe.sharedmobility.vehicle_type=E-CargoBike","6.6327025,46.5218269", "200","0", "esrijson");
         //E-Car
-        Call<List<ApiResponse>> callSyncECar = service.getData("ch.bfe.sharedmobility.vehicle_type=E-Car","7.2467909,47.1367785", "200","0", "esrijson");
+        Call<List<ApiResponse>> callSyncECar = service.getData("ch.bfe.sharedmobility.vehicle_type=E-Car","6.6327025,46.5218269", "200","0", "esrijson");
         //	E-Bike
-        Call<List<ApiResponse>> callSyncEBike = service.getData("ch.bfe.sharedmobility.vehicle_type=E-Bike","7.2467909,47.1367785", "200","0", "esrijson");
+        Call<List<ApiResponse>> callSyncEBike = service.getData("ch.bfe.sharedmobility.vehicle_type=E-Bike","6.6327025,46.5218269", "200","0", "esrijson");
 
         try {
             //Trot
